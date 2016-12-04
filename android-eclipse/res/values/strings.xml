@@ -1,0 +1,40 @@
+<resources>
+  <string name="app_name">Snowman 3D</string>
+  <string name="app_desc">Enchanting snowman live wallpaper for your home screen</string>
+  <string name="title_settings">Settings</string>
+  
+  <string name="key_photoframe">photframe</string>
+  <string name="default_photoframe">default</string>
+  <string name="title_photoframe">Select Image</string>
+  <string name="summary_photoframe">Select Image from gallery, to put on photo frame..</string>
+  
+  <string name="title_pref_header1">Preferences</string>
+  <string name="title_pref_header2">About</string>
+  
+  <string name="key_snowfall">snowfall</string>
+  <string name="title_snowfall">Snow Flakes</string>
+  <string name="summary_snowfall">Enable to have the snow fall..</string>
+  
+  <string name="key_isnewyear">newyear</string>
+  <string name="title_newyear">Days Remaining Indicator</string>
+  <string name="summary_newyear">Check to switch between New Year and Christmas days remaining indicator..</string>
+  
+  <string name="key_inverse">inverse</string>
+  <string name="title_inverse">Inverse Camera</string>
+  <string name="summary_inverse">Enable to have inverse camera movement..</string>
+  
+ <!--  <string name="key_getmore">getmore</string>
+  <string name="title_getmore">Get More !!</string>
+  <string name="summary_getmore">Try more Apps, and support us..</string>
+   -->
+  <string name="key_lowbattery">batteryKey</string>
+  <string name="title_lowbattery">Low Battery</string>
+  <string name="summary_lowbattery">Check to save battery consumption on low battery</string>
+  
+  <string name="key_rate">rate</string>
+  <string name="title_rate">Rate This !!</string>
+  <string name="summary_rate">Give your feedback, to serve you better :)</string>
+    	  
+  <string name="title_note">!!MANY THANKS!!</string>
+  <string name="summary_note">Thank you for using this app. We appereciate your support. It is really encouraging and motivating towards our future endavour.</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="@string/title_pref_header1">
+        
+    <Preference android:key="@string/key_photoframe"
+        android:title="@string/title_photoframe"
+        android:summary="@string/summary_photoframe"
+        />
+   
+    <CheckBoxPreference android:key="@string/key_snowfall"
+        android:title="@string/title_snowfall"
+        android:summary="@string/summary_snowfall"
+        android:defaultValue="true"/>
+    
+    <CheckBoxPreference android:key="@string/key_lowbattery"
+        android:title="@string/title_lowbattery"
+        android:summary="@string/summary_lowbattery"
+        android:defaultValue="false"/>
+    
+    <CheckBoxPreference android:key="@string/key_inverse"
+        android:title="@string/title_inverse"
+        android:summary="@string/summary_inverse"
+        android:defaultValue="false"
+        />
+        
+    <CheckBoxPreference android:key="@string/key_isnewyear"
+        android:title="@string/title_newyear"
+        android:summary="@string/summary_newyear"
+        android:defaultValue="false"/>
+    </PreferenceCategory>
+     <PreferenceCategory android:title="@string/title_pref_header2">
+        <Preference android:key="@string/key_rate"
+            android:title="@string/title_rate"
+            android:summary="@string/summary_rate"/>
+         
+     <!--    <Preference android:key="@string/key_getmore"
+            android:title="@string/title_getmore"
+            android:summary="@string/summary_getmore"/> -->
+        
+        
+    </PreferenceCategory> 
+    <Preference android:title="@string/title_note" 
+            android:summary="@string/summary_note"
+            android:enabled="false"
+            android:selectable="false"/>
+</PreferenceScreen>
